@@ -18,13 +18,10 @@ LabelBase.register(name='Bertina', fn_regular='Bertina.otf')
 
 
 # video_link = YouTube('https://www.youtube.com/watch?v=F4tpoFcnmRM')
-# print('=====#####=====')
 # print(f'Downloading {video_link.title}')
-# print('=====#####=====')
 # # video_link.download()
-# print('=====#####=====')
 # print('Done!')
-# print('=====#####=====')
+
 
 class MainLayout(GridLayout):
     
