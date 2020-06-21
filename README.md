@@ -4,7 +4,7 @@ A prototype lightweight YouTube Video downloader created using Python. There's a
 
 
 # Screenshot
-![alt text](https://github.com/[VinoSamari]/[youvid_downloader]/blob/[master]/mainPage.png?raw=true)
+![alt text](https://github.com/[VinoSamari]/[youvid_downloader]/blob/[master]/mainPage.jpg?raw=true)
 
 
 ## Getting Started
