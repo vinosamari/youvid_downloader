@@ -15,7 +15,7 @@ https://github.com/vinosamari/youvid_downloader
 ## Built With
 
 * [Python](https://www.python.org) - Programming Language
-* [Kivy](https://github.com/kivy/kivy.git) - GUI
+* [Kivy](https://github.com/kivy/kivy.git) - GUI Framework
 * [Pytube](https://github.com/nficano/pytube) - Python YouTube Module
 
 
