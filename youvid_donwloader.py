@@ -14,6 +14,7 @@ from kivy.uix.popup import Popup
 from datetime import date, time
 
 
+
 LabelBase.register(name='Concept', fn_regular='Concept.ttf')
 LabelBase.register(name='Bertina', fn_regular='Bertina.otf')
 
@@ -51,19 +52,12 @@ class MainLayout(GridLayout):
             self.ids.butt1.text = "Download Error. Refresh & Try Again."
             self.ids.butt1.background_color = 1,0,0,0.6
             
-            
-            
-        
-            
-            
-            
-        
         
     def refresh_button(self):
         self.ids.link.text = ""
-        self.ids.butt1.text = "Download"
-        self.ids.butt1.background_color = 0.75,0.5,0,0.6
-        
+        self.ids.butt1.text = "Download Video(mp4)"
+        self.ids.butt1.background_color = 1,0,0,1
+
         
     def help_popup(self):
         popupText = """ 
@@ -74,15 +68,21 @@ class MainLayout(GridLayout):
                        auto_dismiss=True, size_hint=(0.75,0.5))
         popup.open()
         self.refresh_button()
+
         
     def download_popup(self):
         popupText = """ * Check Your Downloads Folder To See All Your Youvid Downloads"""
         popup = Popup(title='Your File Is Downloading', content=Label(text=popupText, font_name='Bertina'),
                    auto_dismiss=True, size_hint=(0.75,0.3))
         popup.open()
-        # self.refresh_button()
+    
+    def download_mp3_button():
+        pass 
+    
+
         
     pass
+
 
 class Youvid_Downloader(App):
     def build(self):
