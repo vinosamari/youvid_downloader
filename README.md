@@ -3,6 +3,10 @@
 A prototype lightweight YouTube Video downloader created using Python. There's also an additional mp3 downloader option for audio streams(still having a few issues with implementation but the UI has a button for that).
 
 
+# Screenshot
+![alt text](https://github.com/[VinoSamari]/[youvid_downloader]/blob/[master]/Screenshot 2020-06-21 at 18.41.59.png?raw=true)
+
+
 ## Getting Started
 
 Clone the repo to your local storage to get started
