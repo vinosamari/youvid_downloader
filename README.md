@@ -35,9 +35,6 @@ pip3 install -r requirements.txt
 
 Please contact me if you're interested in contributing to this project as it's still in it's early stages.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
 ## Acknowledgments
 
